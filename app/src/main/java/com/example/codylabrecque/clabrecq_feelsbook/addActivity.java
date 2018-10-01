@@ -47,7 +47,7 @@ public class addActivity extends AppCompatActivity {
 
         this.text = loadFromFile();
         Button add_button = findViewById(R.id.button);
-        //TextView bodyText = findViewById(R.id.textView);
+
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,19 +56,11 @@ public class addActivity extends AppCompatActivity {
             }
         });
 
-        //Intent intent = getIntent();
-        //String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        //String dropText = intent.getStringExtra(addActivity.EMOTION);
-        //TextView textView = findViewById(R.id.textView);
-        //String MadisonSquareGarden = message + dropText;
-        //textView.setText(message);
-        //textView.setText(dropText);
-        //textView.setMovementMethod(new ScrollingMovementMethod());
+
         adapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1, text);
         ListView listView = findViewById(R.id.listView);
         listView.setAdapter(adapter);
-        //saveInFile(message, new Date(System.currentTimeMillis()));
-        //finish();
+
 
 
     }

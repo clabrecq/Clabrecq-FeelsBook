@@ -26,8 +26,7 @@ import java.util.List;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
-    //Bundle bundle = getIntent().getExtras();
-    //int joy = bundle.getInt("joy");
+
     private int joy = 0;
     private int sadness = 0;
     private int love = 0;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity{
     private int anger = 0;
     private int fear = 0;
     public static final String EXTRA_MESSAGE = "com.example.CLABRECQ-FeelsBook.MESSAGE";
-    //public static final String EMOTION = "com.example.CLABRECQ-FeelsBook.MESSAGE";
+
     private List numbers = new ArrayList<String>();
     @Override
 
