@@ -1,9 +1,12 @@
 package com.example.codylabrecque.clabrecq_feelsbook;
 
 import android.app.ActionBar;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
+import android.os.Build;
 import android.provider.ContactsContract;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
@@ -14,6 +17,7 @@ import android.text.method.ScrollingMovementMethod;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -32,6 +36,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import static com.example.codylabrecque.clabrecq_feelsbook.MainActivity.EXTRA_MESSAGE;
+
 
 public class addActivity extends AppCompatActivity {
     public static String FILENAME = "data";
@@ -42,7 +48,7 @@ public class addActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = intent.getStringExtra(EXTRA_MESSAGE);
         saveInFile(message, new Date(System.currentTimeMillis()));
 
         this.text = loadFromFile();
@@ -58,9 +64,51 @@ public class addActivity extends AppCompatActivity {
 
 
         adapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1, text);
-        ListView listView = findViewById(R.id.listView);
+        final ListView listView = findViewById(R.id.listView);
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (!isFinishing()){
+                            new AlertDialog.Builder(addActivity.this)
+                                    .setTitle("Edit message")
+                                    .setMessage("Do you want to edit or delete this entry?")
+                                    .setCancelable(true)
+                                    .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            text.remove(position);
+                                            List hello = text;
+                                            adapter.notifyDataSetChanged();
+                                            saveInFile2(text, new Date(System.currentTimeMillis()));
+                                        }
+                                    }).show();
+                        }
+                    }
+                });
+                /*AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+                builder.setMessage("Do you want to edit or delete your entry?");
+                builder.setCancelable(true);
+                builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+                AlertDialog alert = builder.create();
+                alert.show();*/
+            }
+        });
 
 
     }
@@ -88,6 +136,28 @@ public class addActivity extends AppCompatActivity {
         try {
             FileOutputStream fos = openFileOutput(FILENAME, Context.MODE_APPEND);
             fos.write(new String( text + "\n").getBytes());
+            fos.close();
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    private void saveInFile2(List text, Date date) {
+        try {
+
+
+            FileOutputStream fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
+            
+
+            for(int i = 0; i < text.size(); i+= 1){
+                Object message = text.get(i);
+
+                fos.write(new String( message + "\n").getBytes());
+            }
+
             fos.close();
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
