@@ -90,23 +90,7 @@ public class addActivity extends AppCompatActivity {
                         }
                     }
                 });
-                /*AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
-                builder.setMessage("Do you want to edit or delete your entry?");
-                builder.setCancelable(true);
-                builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-                AlertDialog alert = builder.create();
-                alert.show();*/
+
             }
         });
 
@@ -150,7 +134,7 @@ public class addActivity extends AppCompatActivity {
 
 
             FileOutputStream fos = openFileOutput(FILENAME, Context.MODE_PRIVATE);
-            
+
 
             for(int i = 0; i < text.size(); i+= 1){
                 Object message = text.get(i);
