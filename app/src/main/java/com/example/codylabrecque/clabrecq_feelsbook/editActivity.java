@@ -39,5 +39,9 @@ public class editActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_activity);
+        Intent edit = getIntent();
+        String message = edit.getStringExtra(EXTRA_MESSAGE);
+        EditText editText = findViewById(R.id.editText2);
+
     }
 }

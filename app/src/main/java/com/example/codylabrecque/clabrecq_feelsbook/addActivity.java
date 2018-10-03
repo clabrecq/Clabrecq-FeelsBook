@@ -77,16 +77,27 @@ public class addActivity extends AppCompatActivity {
                             new AlertDialog.Builder(addActivity.this)
                                     .setTitle("Edit message")
                                     .setMessage("Do you want to edit or delete this entry?")
-                                    .setCancelable(true)
+                                    .setCancelable(false)
                                     .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
                                             text.remove(position);
-                                            List hello = text;
+
                                             adapter.notifyDataSetChanged();
                                             saveInFile2(text, new Date(System.currentTimeMillis()));
                                         }
-                                    }).show();
+                                    })
+                                    .setNegativeButton("Edit", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            Intent edit = new Intent(getApplicationContext(), editActivity.class);
+                                            String message = text.get(position).toString();
+                                            edit.putExtra(EXTRA_MESSAGE, message);
+                                            startActivity(edit);
+                                        }
+                                    })
+                                    .show();
+
                         }
                     }
                 });

@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity{
         Spinner dropdown = findViewById(R.id.spinner);
         String dropText = dropdown.getSelectedItem().toString();
         Intent intent = new Intent(getApplicationContext(), addActivity.class);
-        
+
         EditText editText = findViewById(R.id.editText);
         String message = editText.getText().toString();
         String MadisonSquareGarden = dropText +"-"+ message +"-"+ currentTime;
