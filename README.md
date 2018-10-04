@@ -24,3 +24,5 @@ Abram Hindle, CMPUT 301 Virtual Lecture: Intro to UML Sequence Diagrams, https:/
 
 
 # My APK file is within the outputs subdirectory
+
+My apk file is called 
