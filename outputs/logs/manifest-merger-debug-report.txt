@@ -1,0 +1,172 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33f9e91fb083b1c3b12d7a982d77248/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0589c5baec04087a34f1ae2687e4be42/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8938e12c9d9028297ac3dd4e51841c2c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/377df912a3f18ee3c116d310c9f09db2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b1ce7fdb112d3e4cc7fb9b397facdad1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1350cb224323f7078f7e35a91dfa8fa9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ed7097a339cdc374e90640d3a5735ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9e07e3ee2968245d06fbd3cfd7b6ef23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c55a82d990132169b45c7f395574002e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/630209a7ec6e1dbaea16cc39c22e0386/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8913e1bb9594fcfee8ecd841255ce9cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f0aeab043af2fdcf22689054f7a30816/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4abd341cedd916998f6144d9fc8401ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/de6be70bc593572c6a9dd012d182f79b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3821287d0b60c10470c5103d5b98f208/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d35dc01dea0f78d876beb7c1242d035/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bc342622390176b3073cfae9128066ba/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b5dcb470656e11a203095549b5da98f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d6c5b2271f4e4c48bc8eca010d0d8c08/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/18053f4e2f5f109a4f6d79373fe2b61b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/07cf9984d2f0aa8e93b0401edcde2fd2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9e04d719361973909189ed0e8dcf6ef9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/290a99362d5cd2896d0c269f68130b62/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/70d5fd31cdb173cc98658af888079d7e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8fa258276ecd510457985291738f1581/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/698b3340c1289042cb0bfa95966cd534/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:3:5-59
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:5:5-40:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0589c5baec04087a34f1ae2687e4be42/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0589c5baec04087a34f1ae2687e4be42/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d35dc01dea0f78d876beb7c1242d035/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d35dc01dea0f78d876beb7c1242d035/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.codylabrecque.clabrecq_feelsbook.MainActivity
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.codylabrecque.clabrecq_feelsbook.addActivity
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:19:9-29:20
+	android:parentActivityName
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:19:19-46
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:26:13-28:49
+	android:value
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:28:17-46
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:27:17-64
+activity#com.example.codylabrecque.clabrecq_feelsbook.editActivity
+ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:30:9-39:20
+	android:parentActivityName
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:31:13-54
+	android:name
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml:30:19-47
+uses-sdk
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33f9e91fb083b1c3b12d7a982d77248/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c33f9e91fb083b1c3b12d7a982d77248/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0589c5baec04087a34f1ae2687e4be42/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/0589c5baec04087a34f1ae2687e4be42/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8938e12c9d9028297ac3dd4e51841c2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8938e12c9d9028297ac3dd4e51841c2c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/377df912a3f18ee3c116d310c9f09db2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/377df912a3f18ee3c116d310c9f09db2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b1ce7fdb112d3e4cc7fb9b397facdad1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b1ce7fdb112d3e4cc7fb9b397facdad1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1350cb224323f7078f7e35a91dfa8fa9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1350cb224323f7078f7e35a91dfa8fa9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ed7097a339cdc374e90640d3a5735ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4ed7097a339cdc374e90640d3a5735ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9e07e3ee2968245d06fbd3cfd7b6ef23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9e07e3ee2968245d06fbd3cfd7b6ef23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c55a82d990132169b45c7f395574002e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c55a82d990132169b45c7f395574002e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/630209a7ec6e1dbaea16cc39c22e0386/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/630209a7ec6e1dbaea16cc39c22e0386/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8913e1bb9594fcfee8ecd841255ce9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/8913e1bb9594fcfee8ecd841255ce9cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f0aeab043af2fdcf22689054f7a30816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f0aeab043af2fdcf22689054f7a30816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4abd341cedd916998f6144d9fc8401ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4abd341cedd916998f6144d9fc8401ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/de6be70bc593572c6a9dd012d182f79b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/de6be70bc593572c6a9dd012d182f79b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3821287d0b60c10470c5103d5b98f208/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3821287d0b60c10470c5103d5b98f208/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/b793cf51d6df6c8b05c5cfaa76134235/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d35dc01dea0f78d876beb7c1242d035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/8d35dc01dea0f78d876beb7c1242d035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bc342622390176b3073cfae9128066ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/bc342622390176b3073cfae9128066ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b5dcb470656e11a203095549b5da98f6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b5dcb470656e11a203095549b5da98f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d6c5b2271f4e4c48bc8eca010d0d8c08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d6c5b2271f4e4c48bc8eca010d0d8c08/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/18053f4e2f5f109a4f6d79373fe2b61b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/18053f4e2f5f109a4f6d79373fe2b61b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/07cf9984d2f0aa8e93b0401edcde2fd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/07cf9984d2f0aa8e93b0401edcde2fd2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9e04d719361973909189ed0e8dcf6ef9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/9e04d719361973909189ed0e8dcf6ef9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/290a99362d5cd2896d0c269f68130b62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/290a99362d5cd2896d0c269f68130b62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/70d5fd31cdb173cc98658af888079d7e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/70d5fd31cdb173cc98658af888079d7e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8fa258276ecd510457985291738f1581/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8fa258276ecd510457985291738f1581/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/698b3340c1289042cb0bfa95966cd534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/codylabrecque/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/698b3340c1289042cb0bfa95966cd534/AndroidManifest.xml:20:5-44
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		ADDED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/codylabrecque/cmput301/Clabrecq-FeelsBook/app/src/main/AndroidManifest.xml
