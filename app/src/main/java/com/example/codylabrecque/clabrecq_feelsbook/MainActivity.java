@@ -47,7 +47,13 @@ public class MainActivity extends AppCompatActivity{
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
         dropdown.setAdapter(adapter);
 
-
+        Button history = (Button)findViewById(R.id.button3);
+        history.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, addActivity.class));
+            }
+        });
         loadFromFile();
         updateCount();
 

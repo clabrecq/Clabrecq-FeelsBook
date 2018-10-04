@@ -21,3 +21,6 @@ Waza_Be, Stackoverflow: How to delete selected item from ListView?, https://stac
 Joshua Charles Campbell, Github: lonelyTwitter, https://github.com/joshua2ua/lonelyTwitter, September 14, 2015, retrieved September 26, 2018
 
 Abram Hindle, CMPUT 301 Virtual Lecture: Intro to UML Sequence Diagrams, https://www.youtube.com/watch?v=Ek7WxAmxmmw , September 20, 2012, retrieved October 3,2018
+
+
+# My APK file is within the outputs subdirectory

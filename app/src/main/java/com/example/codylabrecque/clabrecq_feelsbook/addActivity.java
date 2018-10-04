@@ -138,8 +138,11 @@ public class addActivity extends AppCompatActivity {
     private void saveInFile(String text, Date date) {
         try {
             FileOutputStream fos = openFileOutput(FILENAME, Context.MODE_APPEND);
-            fos.write(new String( text + "\n").getBytes());
-            fos.close();
+            //this handles not sending null values to the save file
+            if(text != null) {
+                fos.write(new String(text + "\n").getBytes());
+                fos.close();
+            }
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
