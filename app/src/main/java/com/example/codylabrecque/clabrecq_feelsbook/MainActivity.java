@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity{
 
             while (line != null) {
                 history.add(line);
-                String[] numbers = line.split("--");
+                String[] numbers = line.split("-");
                 //String test = numbers[0];
                 if (numbers[0].equals("Joy")){
                     joy++;

@@ -36,12 +36,91 @@ import java.util.List;
 import static com.example.codylabrecque.clabrecq_feelsbook.MainActivity.EXTRA_MESSAGE;
 
 public class editActivity extends AppCompatActivity {
-    public void onCreate(Bundle savedInstanceState){
+    private List text = new ArrayList<String>();
+
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit_activity);
         Intent edit = getIntent();
-        String message = edit.getStringExtra(EXTRA_MESSAGE);
-        EditText editText = findViewById(R.id.editText2);
+        final String message = edit.getStringExtra(EXTRA_MESSAGE);
+        Button editButton = findViewById(R.id.button4);
+        this.text = loadFromFile();
+        TextView textView = findViewById(R.id.textView);
+        textView.setText(message);
+        editButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText editText = findViewById(R.id.editText2);
+                String[] values = message.split("-");
+                Intent editIntent = new Intent(getApplicationContext(), addActivity.class);
+                String edited = editText.getText().toString();
+                String[] editValues = edited.split("-");
+
+                String editedMadisonSquareGarden = values[0] + "-" + editValues[0] + "-" + editValues[1];
+                editIntent.putExtra(EXTRA_MESSAGE, editedMadisonSquareGarden);
+
+                for (int i = 0; i <= text.size() - 1; i+=1) {
+                    if (text.get(i).equals(message)) {
+                        text.remove(i);
+                        //text.add(editedMadisonSquareGarden);
+                        saveInFile2(text, new Date(System.currentTimeMillis()));
+
+                    }
+
+
+                }
+                startActivity(editIntent);
+            }
+        });
+
+
+
 
     }
+    private List <String> loadFromFile() {
+        List<String> history = new ArrayList<String>();
+        try {
+            FileInputStream fis = openFileInput(addActivity.FILENAME);
+            BufferedReader in = new BufferedReader(new InputStreamReader(fis));
+            String line = in.readLine();
+            while (line != null) {
+                history.add(line);
+                line = in.readLine();
+            }
+
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return history;
+    }
+    private void saveInFile2 (List text, Date date){
+        try {
+
+
+            FileOutputStream fos = openFileOutput(addActivity.FILENAME, Context.MODE_PRIVATE);
+
+
+            for (int i = 0; i < text.size(); i += 1) {
+                Object message = text.get(i);
+
+                fos.write(new String(message + "\n").getBytes());
+            }
+
+            fos.close();
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+
 }
+
+

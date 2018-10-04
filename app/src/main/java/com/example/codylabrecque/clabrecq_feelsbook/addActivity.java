@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Build;
+import android.os.Parcelable;
 import android.provider.ContactsContract;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
@@ -93,6 +94,8 @@ public class addActivity extends AppCompatActivity {
                                             Intent edit = new Intent(getApplicationContext(), editActivity.class);
                                             String message = text.get(position).toString();
                                             edit.putExtra(EXTRA_MESSAGE, message);
+
+
                                             startActivity(edit);
                                         }
                                     })
