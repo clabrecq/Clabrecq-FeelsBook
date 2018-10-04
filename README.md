@@ -19,3 +19,5 @@ Octavian Damiean, Suraj Bajaj, Stackoverflow: How to dynamically remove items fr
 Waza_Be, Stackoverflow: How to delete selected item from ListView?, https://stackoverflow.com/questions/7633135/how-to-delete-a-selected-item-from-the-listview#7633357 October 3, 2011, retrieved October 2, 2018
 
 Joshua Charles Campbell, Github: lonelyTwitter, https://github.com/joshua2ua/lonelyTwitter, September 14, 2015, retrieved September 26, 2018
+
+Abram Hindle, CMPUT 301 Virtual Lecture: Intro to UML Sequence Diagrams, https://www.youtube.com/watch?v=Ek7WxAmxmmw , September 20, 2012, retrieved October 3,2018
