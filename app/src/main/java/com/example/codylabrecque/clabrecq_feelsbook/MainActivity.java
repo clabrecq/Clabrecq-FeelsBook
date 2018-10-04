@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity{
 
 
         }
+//This method loads from the file and parses it to count how many emotions of each are recorded
     private List<String> loadFromFile() {
         List<String> history = new ArrayList<String>();
         try {
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity{
         return history;
     }
 
-
+//This updates the views of each emotion and count
     public void updateCount(){
         String joyText = "Joy" + " - " + joy;
         TextView joyView = findViewById(R.id.textView2);
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
 
-
+//This updates the count the first time you click on submit and also sends all of the pertinent information to addActivity
     public void onClick(View view) {
 
         Date currentTime = Calendar.getInstance().getTime();

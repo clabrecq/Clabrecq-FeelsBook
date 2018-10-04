@@ -1,3 +1,6 @@
+//The loadFromFile, saveInFile and saveInFile2 methods in all activities are all heavily based on an older version of lonelyTwitter produced
+//by Joshua Charles Campbell. I have reference him and his github in my README.md file.
+
 package com.example.codylabrecque.clabrecq_feelsbook;
 
 import android.app.ActionBar;
@@ -54,7 +57,7 @@ public class addActivity extends AppCompatActivity {
 
         this.text = loadFromFile();
         Button add_button = findViewById(R.id.button);
-
+        //sends you back to the main activity
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,11 +66,11 @@ public class addActivity extends AppCompatActivity {
             }
         });
 
-
+        //array adapter to help create a listview
         adapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_list_item_1, text);
         final ListView listView = findViewById(R.id.listView);
         listView.setAdapter(adapter);
-
+        //this code builds the alert window
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
@@ -81,6 +84,7 @@ public class addActivity extends AppCompatActivity {
                                     .setCancelable(false)
                                     .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
                                         @Override
+                                        //removes the selected item when delte is hit
                                         public void onClick(DialogInterface dialog, int which) {
                                             text.remove(position);
 
@@ -90,6 +94,7 @@ public class addActivity extends AppCompatActivity {
                                     })
                                     .setNegativeButton("Edit", new DialogInterface.OnClickListener() {
                                         @Override
+                                        //sends you to the editActivity
                                         public void onClick(DialogInterface dialog, int which) {
                                             Intent edit = new Intent(getApplicationContext(), editActivity.class);
                                             String message = text.get(position).toString();
@@ -143,6 +148,7 @@ public class addActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
+    //when an edit is made this method rewrites the entire file based and the new list of information it has
     private void saveInFile2(List text, Date date) {
         try {
 

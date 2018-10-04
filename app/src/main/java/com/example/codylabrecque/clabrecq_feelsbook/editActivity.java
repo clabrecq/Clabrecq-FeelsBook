@@ -49,6 +49,7 @@ public class editActivity extends AppCompatActivity {
         textView.setText(message);
         editButton.setOnClickListener(new View.OnClickListener() {
             @Override
+            //This splits the strings making each one editable
             public void onClick(View v) {
                 EditText editText = findViewById(R.id.editText2);
                 String[] values = message.split("-");
@@ -58,7 +59,7 @@ public class editActivity extends AppCompatActivity {
 
                 String editedMadisonSquareGarden = values[0] + "-" + editValues[0] + "-" + editValues[1];
                 editIntent.putExtra(EXTRA_MESSAGE, editedMadisonSquareGarden);
-
+                //This saves the list to the file when an edit is made and removes the edited string
                 for (int i = 0; i <= text.size() - 1; i+=1) {
                     if (text.get(i).equals(message)) {
                         text.remove(i);
